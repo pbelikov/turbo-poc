@@ -8,6 +8,7 @@
     "./code": "./src/code.tsx"
   },
   "scripts": {
+    "test": "echo \"hello from ui\"",
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component"
   },
