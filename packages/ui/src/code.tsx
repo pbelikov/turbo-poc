@@ -5,5 +5,6 @@ export function Code({
   children: React.ReactNode;
   className?: string;
 }): JSX.Element {
+  console.log('more code');
   return <code className={className}>{children}</code>;
 }
